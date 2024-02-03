@@ -1,0 +1,48 @@
+{
+  "name": "instant-terminal",
+  "displayName": "Instant Terminal",
+  "description": "Provides a shortcut button in Status Bar to open a terminal in Editor Area",
+  "version": "0.0.2",
+  "publisher": "akhilharihar",
+  "author": {
+    "name": "Akhil Harihar"
+  },
+  "icon": "assets/images/icon.png",
+  "bugs": {
+    "url": "https://github.com/akhilharihar/vscode-instant-terminal/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akhilharihar/vscode-instant-terminal"
+  },
+  "engines": {
+    "vscode": "^1.58.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {},
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.58.0",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "18.x",
+    "@typescript-eslint/eslint-plugin": "^6.19.1",
+    "@typescript-eslint/parser": "^6.19.1",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3",
+    "@vscode/test-cli": "^0.0.4",
+    "@vscode/test-electron": "^2.3.9"
+  }
+}
