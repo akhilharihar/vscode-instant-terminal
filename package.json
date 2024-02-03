@@ -2,7 +2,7 @@
   "name": "instant-terminal",
   "displayName": "Instant Terminal",
   "description": "Provides a shortcut button in Status Bar to open a terminal in Editor Area",
-  "version": "1.0",
+  "version": "1.0.0",
   "publisher": "akhilharihar",
   "author": {
     "name": "Akhil Harihar"
