@@ -1,3 +1,3 @@
 # Instant Terminal
 
-VS Code Extension that provides adds a shortcut to status bar to open a Terminal in Editor Area.
+VS Code Extension that adds a shortcut to the status bar to open a Terminal in the Editor Area.
